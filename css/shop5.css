@@ -1,0 +1,127 @@
+.help-2 {
+    float: left;
+    width: 960px;
+    height: 800px;
+    border: 1px solid #ebeff2;
+    margin-left: 20px;
+}
+
+.xinZeng {
+    height: 49px;
+    line-height: 49px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    width: 90%;
+    margin: 10px auto;
+    border-bottom: 1px solid #ebeff2;
+}
+
+.xinZeng_1 {
+    border-bottom: 3px solid #009d4a;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.select1 {
+    width: 85%;
+    margin: 10px 0px 10px 60px;
+}
+
+.selectIndex {
+    width: 100%;
+    height: 400px;
+    background-color: #F8F8F8;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 35px;
+    border: 1px solid #E0E0E0;
+}
+
+.selectIndex_1 {
+    float: left;
+    width: 37%;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+    border: 1px solid #E0E0E0;
+    color: #666666;
+}
+
+.selectIndex_1 li,
+.selectIndex_2 p {
+    width: 90%;
+    padding: 0% 5%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.selectIndex_1 p:hover,
+.selectIndex_2 p:hover {
+    background-color: #009D4A;
+}
+
+.selectIndex_2 {
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+    border: 1px solid #E0E0E0;
+}
+
+.select2 {
+    width: 90%;
+    margin: 20px auto;
+    margin-left: 60px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 1px solid #ebeff2;
+    color: #666666;
+}
+
+.ma-border2 {
+    width: 95%;
+    border: 1px solid #E0E0E0;
+    padding-right: 15px;
+    height: 750px;
+}
+
+.li-1 {
+    width: 730px;
+}
+
+.select2 span {
+    color: #009D4A;
+}
+
+.select3 {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: #009D4A;
+}
+
+.selectIndex_1 ul li.on {
+    background: #009D4A;
+    color: white;
+}
+
+.selectIndex_2 ul p:hover {
+    background: #009D4A;
+    color: white;
+}
+.selectIndex_2 ul p.active{
+    background: #009D4A;
+    color: white;
+}

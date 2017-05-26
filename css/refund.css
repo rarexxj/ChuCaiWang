@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+/*.header{
+    box-shadow: 5px 5px 20px #e0e0e0;
+}*/
+.main{
+    width: 1190px;
+    margin: 0 auto;
+}
+.mainHeader{
+    width:100%;
+    margin-top: 30px;
+}
+.mainIndex{
+    width: 100%;
+    height: 945px;
+    margin-top: 35px;
+    border: 1px solid #E0E0E0;
+}
+.indexLeft{
+    width:490px;
+    height:510px;
+    float: left;
+    border-right: 1px solid #E0E0E0;
+}
+
+.floatHeader{
+    margin: 0px;
+    height:45px;
+    line-height: 45px;
+    font-weight: normal;
+    padding-left: 35px;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #f9f9f9;
+}
+
+.indexLeft_2{
+    height:230px;
+    padding: 25px;
+}
+.message1{
+    display: inline-block;
+    margin: 0px 25px 25px 0px;
+    float: left;
+  
+}
+.message1 img{
+	width: 85px;
+	height: 85px;
+	 border: 1px solid #E0E0E0;
+	
+}
+.message2{
+    display: inline-block;
+    margin-top: 10px;
+    width: 320px;
+    float: left;
+}
+.indexLeft_2 p{
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color:#666;
+}
+.indexLeft_2 p span{
+    color:#666;
+}
+.indexRight{
+    width: 698px;
+    height:510px;
+    float: left;
+}
+.indexRight_1{
+    width:100%;
+    height: 465px;;
+    padding: 70px 50px;
+}
+.di_ri{
+	width: 100%;
+	line-height: 70px;
+	font-size: 25px;
+	padding-left: 80px;
+	
+}
+.dispose{
+    width: 100%;
+    height:70px;
+    line-height: 70px;
+    padding-left: 70px;
+    font-size: 22px;
+}
+.dispose1{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.dispose1>div{
+    margin-top: 60px;
+}
+.dispose1>div>button{
+    width: 100px;
+    height:30px;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    border:1px solid #E0E0E0;
+    font-size: 14px;
+    font-family: "微软雅黑"
+}
+.indexBottom{
+    width: 100%;
+    height: 430px;
+    padding: 30px;
+}
+.indexBottom>div{
+    width:100%;
+    height: 35px;
+    line-height: 35px;
+    color: #646464;
+}
+.indexBottom>div>span{
+    margin-left: 20px;
+}
+.mainPZ>img{
+    margin-right: 20px;
+    width: 170px;
+    height: 170px;
+}

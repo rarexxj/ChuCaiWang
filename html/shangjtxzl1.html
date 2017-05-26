@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>填写资料</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/zxx.lib.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/sjj.css">
+    <link rel="stylesheet" type="text/css" href="../css/shangjtxzl.css">
+</head>
+
+<body>
+    <!-- 引入头部文件 -->
+    <div class="includeDom" include='${contextPath }/web/header_first.ws'></div>
+    <div class="borderbg"></div>
+    <div class="bread">
+        <a class="bread-a home" href="${contextPath }/web/index.ws">首页</a>>
+        <a class="bread-a" href="javascript:;">商家入驻</a>
+    </div>
+    <div class="shop-know-lc">
+    </div>
+    <div class="w1190">
+        <div class="shop-know-te1">
+            <div class="shop-know-te1-tit"><span>填写申请资料</span></div>
+        </div>
+        <div class="shop-book clear">
+            <form action="#">
+                <div class="shop-book-box">
+                    <div class="shop-mok1">
+                        <h3><em>收起</em><p><img src="../img/img-59.png" alt="">店铺负责人信息</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">姓名：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">身份证号：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="shop-book-sp-l">手持身份证正反面：
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="shop-book-sp-r">
+                                                <div class="yul-img-box">
+                                                    <div class="yul-img">
+                                                        <img src="../img/pro11.png" alt="" >
+                                                        <span class="yul-img-xx"></span>
+                                                    </div>
+                                                    <span class="opct">上传文件
+                                                        <input class="shop-table-input2" type="file"/>
+                                                    </span>
+                                                </div>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">手持身份证正反面拍照，每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shop-mok2">
+                        <h3><em>收起</em><p><img src="../img/img-60.png" alt="">店铺信息</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">证件类型：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input2 input-click1" type="radio" name="name1">普通营业执照（存在独立的组织机构代码证）<span  class="shop-book-sp-rr"><input class="shop-table-input2 input-click2" type="radio" name="name1" >多证合一营业执照（不存在独立的组织机构代码证）</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">公司名称：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">所在地区：</span></td>
+                                        <td style="overflow: hidden">
+                                            <span class="shop-book-sp-r" style="float:left;margin-right: 6px;">
+                                                <select name="选择省" class="shop-table-input1" style="width:90px;height:32px;">
+                                                    <option value ="">浙江省</option>
+                                                </select>
+                                            </span>
+                                            <span class="shop-book-sp-r" style="float:left;margin-right: 6px;">
+                                                <select class="shop-table-input1" style="width:90px;height:32px;">
+                                                    <option value ="">杭州市</option>
+                                                </select>
+                                            </span>
+                                            <span class="shop-book-sp-r" style="float:left;margin-right: 6px;">
+                                                <select class="shop-table-input1" style="width:90px;height:32px;">
+                                                    <option value ="">下城区</option>
+                                                </select>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">详情地址：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">营业执照号：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">有效期：</span></td>
+                                        <td class="time">
+                                            <span class="shop-book-sp-r time-span1">
+                                        <input class="shop-table-input1 time-input1" type="text" onclick="laydate()">
+                                        <span class="ico"></span>
+                                            </span>
+                                            <span class="time-span2">-</span>
+                                            <span class="time-span3">
+                                        <input class="shop-table-input1 time-input2" type="text" onclick="laydate()">
+                                        <span class="ico"></span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">营业执照电子版：</span></td>
+                                        <td><span class="shop-book-sp-r">
+                                        <span class="opct">上传文件
+                                            <input class="shop-table-input2" type="file">
+                                        </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden1 shop-mok3">
+                        <h3><em>收起</em><p><img src="../img/img-61.png" alt="">组织机构代码证</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">组织机构代码：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">组织机构代码电子版：</span></td>
+                                        <td><span class="shop-book-sp-r">
+                                        <span class="opct">上传文件
+                                            <input class="shop-table-input2" type="file">
+                                        </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden2 shop-mok4">
+                        <h3><em>收起</em><p><img src="../img/img-61.png" alt="">食品流通许可证</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">食品流通许可证：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">食品流通许可证电子版：</span></td>
+                                        <td><span class="shop-book-sp-r">
+                                        <span class="opct">上传文件
+                                            <input class="shop-table-input2" type="file">
+                                        </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden3 shop-mok5">
+                        <h3><em>收起</em><p><img src="../img/img-62.png" alt="">一般纳税人证明</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">一般纳税人证明：</span></td>
+                                        <td><span class="shop-book-sp-r">
+                                        <span class="opct">上传文件
+                                            <input class="shop-table-input2" type="file">
+                                        </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden4 shop-mok6">
+                        <h3><em>收起</em><p><img src="../img/img-63.png" alt="">税务登记证</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">纳税人识别号：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">税务登记证电子版：</span></td>
+                                        <td><span class="shop-book-sp-r">
+                                        <span class="opct">上传文件
+                                            <input class="shop-table-input2" type="file">
+                                        </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">手持身份证正反面拍照，每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shop-mok7">
+                        <h3><em>收起</em><p><img src="../img/img-64.png" alt="">开户行信息</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">开户人：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">公司银行账号：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">开户行：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">开户许可证电子版：</span></td>
+                                        <td><span class="shop-book-sp-r">
+                                        <span class="opct">上传文件
+                                            <input class="shop-table-input2" type="file">
+                                        </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r">每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shop-mok8">
+                        <h3><em>收起</em><p><img src="../img/img-65.png" alt="">店铺经营信息</p></h3>
+                        <ul>
+                            <li>
+                                <table style="margin-top:23px;" width="100%">
+                                    <tr>
+                                        <td width="167"><span class="shop-book-sp-l">店铺名称：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">联系电话：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="shop-book-sp-l">QQ：</span></td>
+                                        <td><span class="shop-book-sp-r"><input class="shop-table-input1" type="text"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><span class="shop-book-sp-r"><input value="保存" class="shop-table-input3" type="button"></span></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w197">
+                    <input value="确认无误，进入下一步" type="button" onclick="next()">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--引入页面尾部文件 -->
+    <div class="includeDom" include='${contextPath }/web/footer_first.ws'></div>
+</body>
+
+</html>
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="../js/jquery.scrollLoading.js"></script>
+<script type="text/javascript" src="../js/imgshow.js"></script>
+<script type="text/javascript" src="../js/magnifier.js"></script>
+<script type="text/javascript" src="../js/bocfe.js"></script>
+<script type="text/javascript" src="../js/laydate.js"></script>
+<script type="text/javascript" src="../dojs/common.js"></script>
+<script>
+$(function() {
+
+    /* $(document).ready(function(){
+        $(".shop-book-box h3").addClass("on")
+        $(".shop-book-box h3 em").text("收起");
+    })
+    jQuery(".shop-book-box").slide({
+        titCell: "h3",
+        targetCell: "ul",
+        defaultIndex: 0,
+        effect: "slideDown",
+        delayTime: 300,
+        trigger: "click",
+        defaultPlay:false
+    });  */
+
+    /* $(".shop-book-box h3").each(function() {
+        if ($(this).hasClass("on")) {
+            $(this).children("em").text("收起");
+            $(this).siblings("h3").children("em").text("展开");
+        } else {
+            $(this).children("em").text("展开");
+        }
+    })
+
+    $(".shop-book-box h3").each(function() {
+        $(this).click(function() {
+            if ($(this).hasClass("on")) {
+                $(this).children("em").text("收起")
+                $(this).siblings("h3").children("em").text("展开")
+            } else {
+
+            }
+        })
+    }) */
+    $(".shop-book-box h3").each(function() {
+        $(this).click(function() {
+            var _em = $(this).children("em");
+
+            if (_em.hasClass("on")) {
+
+                $(this).children("em").text("收起");
+                $(this).children("em").removeClass("on");
+                $(this).siblings("ul").slideDown();
+            } else {
+                $(this).children("em").text("展开");
+                $(this).children("em").addClass("on");
+                $(this).siblings("ul").slideUp();
+            }
+
+        })
+    });
+
+    $(".input-click2").on("click", function() {
+        $(".hidden1").hide();
+        $(".hidden2").hide();
+        $(".hidden3").hide();
+        $(".hidden4").hide();
+    })
+
+    $(".input-click1").on("click", function() {
+        $(".hidden1").show();
+        $(".hidden2").show();
+        $(".hidden3").show();
+        $(".hidden4").show();
+    })
+
+    $(".yul-img").on("mouseover mouseout",function(event){
+        if(event.type=="mouseover"){
+            $(".yul-img-xx").hide();
+            $(this).children(".yul-img-xx").show();
+        }else if(event.type=="mouseout"){
+            $(this).children(".yul-img-xx").hide();
+        } 
+    })
+
+    $(".yul-img-xx").on("click",function(){
+        $(this).parents(".yul-img").hide();
+    })
+})
+
+function next() {
+    location.href = "${contextPath }/web/shops/redirect_zhizsh.ws"
+}
+</script>

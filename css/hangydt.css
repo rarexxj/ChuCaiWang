@@ -1,0 +1,22 @@
+.s-hot-list .list .img{
+    width: 75px;
+    height: 75px;
+}
+.s-hot-list .list .img{margin-right:20px;}
+
+.s-hot-list .list .cont{
+    width: 150px;
+}
+.s-hot-list .list .img{
+    margin-right: 0px;
+}
+
+.ce-link{
+    background: url(../img/lunt-logo6.png) no-repeat;
+    background-position: center;
+    padding-left: 50px;
+    margin-right:4px;
+}
+.s-news-list li .bot-mes i{
+    color: #999;
+}

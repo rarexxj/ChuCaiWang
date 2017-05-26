@@ -1,0 +1,50 @@
+.lunt-bgr{
+    border: none;
+}
+.lunt-neir{
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+.tiezxq-font{
+    font-size: 14px;
+    color: #666;
+    line-height: 26px;
+}
+.tiezxq-fl{
+    float: left;
+}
+
+.lunt-main .main{
+    float: none;
+}
+.lunt-main-tl h3{
+    font-size: 18px;
+    color: #333;
+    margin-left: 16px;
+}
+.tiezxq-floor{
+    float: right;
+}
+.lunt-pingl{
+    line-height: 23px;
+    color: #666666;
+    font-size: 14px;
+}
+.lunt-job span{
+    font-size: 12px;
+}
+.lunt-job i{
+    font-size: 12px;
+}
+.lunt-neir{
+    padding-bottom: 24px;
+}
+.lunt-main-tl h2{
+    margin-left: 16px;
+}
+.lunt-main .main{
+    padding-bottom: 60px;
+}
+.lunt-ly{
+    top:18px;
+}

@@ -1,0 +1,84 @@
+.shop-sel{
+	 width: 90px;
+     height: 30px;
+     border: 1px solid #E0E0E0;
+     color: #666666;
+     padding: 5px 10px;
+     margin-left: 15px;
+     
+}
+
+.chec{
+	background-color: #009D4A;
+	color: white;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+}
+.daat{
+	width: 80px;
+	border: 1px solid #E0E0E0;
+	line-height: 28px;
+	background-image: url(../img/rili.png);
+    background-repeat: no-repeat;
+    background-position: 98% 35%;
+}
+.div-i{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	color: #666666;
+}
+
+.inpu{
+	width: 284px;
+	line-height: 28px;
+	border: 1px solid #E0E0E0;
+	margin-left: -5px;
+	margin-right: 15px;
+}
+.t_b{
+	width: 100%;
+	padding: 5px 10px;
+	border: 1px solid #E0E0E0;
+	border-bottom: none;
+	margin-top: 20px;
+}
+.bott_1{
+	margin-top: 30px;
+}
+.posit{
+	display: inline-block;
+	float: right;
+	width: 140px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.posit-1{
+	display: inline-block;
+	float: right;
+	width: 140px;
+	margin-right: 40px;
+	margin-top: -30px;
+}
+.tai-r{
+	display: block;
+	width: 100px;
+}
+.floa-l{
+	display: inline-block;
+	float: left;
+	width: 85px;
+	height: 85px;
+	
+}
+.floa-l img{
+	width: 85px;
+	height: 85px;
+	border: 1px solid #E0E0E0;
+	float: left;
+}
+
+.floa-l span{
+	display: inline-block;
+	float: right;
+}

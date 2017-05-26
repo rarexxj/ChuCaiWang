@@ -1,0 +1,52 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/img-2.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+.shop-know-te1-tit span{
+border-bottom:3px solid #009d4a; 
+}
+.shop-know-lc{
+	background: url(../img/sjru-img-128.png);
+	width: 1190px;
+	height: 35px;
+}
+.side-service-h2{
+	border-top: 2px solid #009d4a;
+	font-weight: bold;
+	color: #333;
+}
+.service-nav{
+	background: #f7f7f7;
+}
+.sale{
+	background: #fff;
+}
+
+
+/**/
+.s-acc-safety .list .sub-box .bot-btn .confirm{
+	background: #ff9c18;
+}
+.s-acc-safety .list .state.def{
+color: #ff9c18;
+}
+.s-acc-safety .top-word{
+	color: #666;
+}
+.s-acc-safety .list input.app-butn{
+	border: none;
+}
+.s-acc-safety .list .bind-sub{
+	padding-left: 256px;
+}
+.s-acc-safety .list input.app-butn{
+	width: 115px;
+	height: 36px;
+	background: #ff9c18;
+	font-size: 14px;
+}

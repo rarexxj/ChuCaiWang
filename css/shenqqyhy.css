@@ -1,0 +1,137 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/img-2.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+
+.shop-know-te1-tit span {
+    border-bottom: 3px solid #009d4a;
+}
+
+.shop-know-lc {
+    background: url(../img/shenqhy-img1.png);
+    width: 1190px;
+    height: 35px;
+}
+
+.shop-know-lc2 {
+    background: url(../img/sjrz-img-130.png);
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.shop-know-lc4 {
+    background: url(../img/sjrz-img-132.png);
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.shop-table-input3 {
+    background: #009d4a;
+}
+
+.shop-table-input2 {
+    margin-right: 2px;
+}
+
+.shop-book-sp-rr {
+    margin-left: 40px;
+}
+
+.w197 input {
+    background: #009d4a;
+}
+
+.shop-book-box {
+    min-height: 740px;
+}
+
+.shop-know-te1-tit {
+    margin-top: 20px;
+}
+
+.service-l-wip {
+    border-top: none;
+}
+
+.z3-box span {
+    width: 940px;
+    color: #666;
+}
+
+.z3-box .z3-te1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.shop-book {
+    width: 1188px;
+    min-height: 0;
+}
+
+.shop-book ul {
+    width: 100%;
+    border: none;
+}
+
+.shop-book-sp-l {
+    color: #666;
+}
+
+.opct {
+    background: #f8f8f8;
+}
+
+.shop-book-sp-r {
+    color: #666;
+    
+}
+
+.ico {
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    background: url(../img/s_ico_12.png) no-repeat center;
+    position: absolute;
+    right: 7px;
+    top: 4px;
+}
+
+.time span {
+    float: left;
+}
+
+.time .time-span1 {
+	position: relative;
+}
+
+.time .time-span2 {
+    line-height: 30px;
+    width: 28px;
+    text-align: center
+}
+
+.time .time-span3{
+	position: relative;
+}
+.time-input1{
+	width:120px;
+}
+
+.time-input2{
+	width:120px;
+}
+.shenqqyhy-btn{
+	margin: 20px 0 0 540px;
+	display: block;
+}
+
+.shop-table-input3{
+	font-size: 14px;
+}

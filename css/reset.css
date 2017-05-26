@@ -1,0 +1,44 @@
+/*reset*/
+
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+dl,
+dt,
+dd,
+input {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+a:hover{
+	color: #009d4a;
+};

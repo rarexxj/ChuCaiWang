@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商城中心</title>
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../js/skin/layer.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/help.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/shopp.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shop2.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shop4.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shop15.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shop-xxj.css" />
+</head>
+
+<body>
+    <!--头部信息-->
+    <div class="header">
+        <div class="w1190 top">
+            <div class="hi">HI,<a href="##">Admin</a>欢迎来到厨菜网!</div>
+            <ul class="">
+                <li><a href="">登录</a>|</li>
+                <li><a href="">免费注册</a>|</li>
+                <li><a href="">我的订单</a>|</li>
+                <li><a href="" class="xxBtn">我的消息</a>|</li>
+                <li><a href="" class="shopC">购物车</a></li>
+                <li><a href="">帮助中心</a>|</li>
+                <li><a href="">企业会员</a>|</li>
+                <li><a href="">商家入口</a></li>
+            </ul>
+        </div>
+        <div class="w1190 logoBar">
+            <img src="../img/logo.png" class="logo">
+            <img src="../img/houtai.png" alt="" class="pos" />
+        </div>
+        <div class="borderbg"></div>
+    </div>
+    <!--头部信息结束-->
+    <div class="main w1190 sale back-c">
+        <!--中间-->
+        <p class="title"><a href="##">首页</a><span>></span><a href="##">商家中心</a></p>
+        <div class="help sale-box">
+            <!--左边信息框-->
+            <div class="help-l">
+                <div>
+                    <h2>商家中心</h2>
+                    <div class="help-l-1">
+                        <dl>
+                            <h3 class="h1">店铺管理</h3>
+                            <dd><a href="shop2.html"><span class="dian"></span>店铺设置</a></dd>
+                            <dd><a href="shop3.html"><span class="dian"></span>客服设置</a></dd>
+                            <dd style="border-bottom: none;"><a href="shop35wodyhq.html"><span class="dian"></span>优惠券</a></dd>
+                        </dl>
+                        <dl>
+                            <h3 class="h2">商品列表</h3>
+                            <dd><a href="shop4.html"><span class="dian"></span>商品列表</a></dd>
+                            <dd><a href="shop5.html"><span class="dian"></span>上传商品</a></dd>
+                            <dd style="border-bottom: none;"><a href="shop7youhsp.html"><span class="dian"></span>优惠商品</a></dd>
+                        </dl>
+                        <dl>
+                            <h3 class="h3">订单管理</h3>
+                            <dd><a href="shop15dingdlb.html" class="active"><span class="dian"></span>订单列表</a></dd>
+                            <dd><a href="shop25pingjhf.html"><span class="dian"></span>评价管理</a></dd>
+                            <dd style="border-bottom: none;"><a href="shop27xiaostj.html"><span class="dian"></span>销售统计</a></dd>
+                        </dl>
+                        <dl>
+                            <h3 class="h4">资金管理</h3>
+                            <dd><a href="shop29wodqb.html"><span class="dian"></span>我的钱包</a></dd>
+                            <dd style="border-bottom: none;"><a href="shop31jiaofjl.html"><span class="dian"></span>缴费记录</a></dd>
+                        </dl>
+                        <dl>
+                            <h3 class="h5">系统设置</h3>
+                            <dd><a href="##"><span class="dian"></span>密码修改</a></dd>
+                            <dd style="border-bottom: none;"><a href="shop34wodxx.html"><span class="dian"></span>我的消息</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="help-l left" style="width:965px;">
+                <div class="rig">
+                    <p class="p-p">订单列表</p>
+                    <div class="line"></div>
+                    <div style="clear:both"></div>
+                    <div class="div-i">
+                        <label>下单时间：</label>
+                        <input type="text" style="width: 150px;" class="daat" id="datepicker">&nbsp;-&nbsp;
+                        <input type="text" style="width: 150px;" class="daat" id="datepicke">
+                        <select name="va" class="shop-sel">
+                            <option value="va">商品名</option>
+                            <option value="va">商品名</option>
+                            <option value="va">商品名</option>
+                        </select>
+                        <input type="text" class="inpu" />
+                        <button class="chec">查询</button>
+                    </div>
+                    <div class="s-order-type border">
+                        <table width="100%">
+                            <tr>
+                                <td width="40%" class="tx-le">商品名称</td>
+                                <td width="15%">单价(元)</td>
+                                <td width="13%">数量</td>
+                                <td width="13%">总计</td>
+                                <td width="14%">订单状态</td>
+                                <td width="7">操作</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="shop15-main">
+                        <table width="100%" class="t_b">
+                            <tr>
+                                <td width="10%">订单编号：</td>
+                                <td width="16%">123456789</td>
+                                <td width="9%">下单时间：</td>
+                                <td width="17%">2016-11-11 10:25</td>
+                                <td width="5%">买家：</td>
+                                <td width="41%">王先生</td>
+                                <td width="9%">
+                                    <img src="../img/remove.png" alt="" class="shop15-remove" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" class="t-b">
+                            <tr>
+                                <td width="34%">
+                                    <div class="pro-box f-cb">
+                                        <a href="" class="fl img a-img "><img width="82" height="82" src="../img/lajiao.png" alt="" class="im1"> </a>
+                                        <a href="">
+                                            <span class="posit">海天酱油家的味道好吃的味道哦你好加油</span>
+                                            <br />
+                                            <span class="posit-1"><font style="color: #9b9b9b;">500ml</font></span>
+                                            <div style="clear: both;"></div>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td width="12%" class="center">￥378.00</td>
+                                <td width="12%" class="center">1</td>
+                                <td width="13%" class="center">
+                                    <font style="color:#FF9A16;">123.00</font>
+                                </td>
+                                <td width="13%" class="cent">
+                                    <a href="" class="butn">
+                                        <font style="color:#a9a9a9">已完成</font>
+                                    </a>
+                                    <br /<br />
+                                    <a href="" class="butn"> 订单详情</a>
+                                </td>
+                                <td width="10%"><span class="spann"><font style="color: #98b6ea" >修改价格</font></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="shop15-main">
+                        <table width="100%" class="t_b">
+                            <tr>
+                                <td width="10%">订单编号：</td>
+                                <td width="16%">123456789</td>
+                                <td width="9%">下单时间：</td>
+                                <td width="17%">2016-11-11 10:25</td>
+                                <td width="5%">买家：</td>
+                                <td width="41%">王先生</td>
+                                <td width="9%">
+                                    <img src="../img/remove.png" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" class="t-b">
+                            <tr>
+                                <td width="34%">
+                                    <div class="pro-box f-cb">
+                                        <a href="" class="fl img a-img "><img width="82" height="82" src="../img/lajiao.png" alt="" class="im1"> </a>
+                                        <a href="">
+                                            <span class="posit">海天酱油家的味道好吃的味道哦你好加油</span>
+                                            <br />
+                                            <span class="posit-1"><font style="color: #9b9b9b;">500ml</font></span>
+                                            <div style="clear: both;"></div>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td width="12%" class="center">￥378.00</td>
+                                <td width="12%" class="center">1</td>
+                                <td width="13%" class="center">
+                                    <font style="color:#FF9A16;">123.00</font>
+                                </td>
+                                <td width="13%" class="cent">
+                                    <a href="" class="butn">
+                                        <font style="color:#a9a9a9">已完成</font>
+                                    </a>
+                                    <br /<br />
+                                    <a href="" class="butn"> 订单详情</a>
+                                </td>
+                                <td width="10%"><span class="spann"><font style="color: #98b6ea" >修改价格</font></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="shop15-main">
+                        <table width="100%" class="t_b">
+                            <tr>
+                                <td width="10%">订单编号：</td>
+                                <td width="16%">123456789</td>
+                                <td width="9%">下单时间：</td>
+                                <td width="17%">2016-11-11 10:25</td>
+                                <td width="5%">买家：</td>
+                                <td width="41%">王先生</td>
+                                <td width="9%">
+                                    <img src="../img/remove.png" alt="" class="shop15-remove" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" class="t-b">
+                            <tr>
+                                <td width="34%">
+                                    <div class="pro-box f-cb">
+                                        <a href="" class="fl img a-img "><img width="82" height="82" src="../img/lajiao.png" alt="" class="im1"> </a>
+                                        <a href="">
+                                            <span class="posit">海天酱油家的味道好吃的味道哦你好加油</span>
+                                            <br />
+                                            <span class="posit-1"><font style="color: #9b9b9b;">500ml</font></span>
+                                            <div style="clear: both;"></div>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td width="12%" class="center">￥378.00</td>
+                                <td width="12%" class="center">1</td>
+                                <td width="13%" class="center">
+                                    <font style="color:#FF9A16;">123.00</font>
+                                </td>
+                                <td width="13%" class="cent">
+                                    <a href="" class="butn">
+                                        <font style="color:#a9a9a9">已完成</font>
+                                    </a>
+                                    <br /<br />
+                                    <a href="" class="butn"> 订单详情</a>
+                                </td>
+                                <td width="10%"><span class="spann"><font style="color: #98b6ea" >修改价格</font></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="shop15-main">
+                        <table width="100%" class="t_b">
+                            <tr>
+                                <td width="10%">订单编号：</td>
+                                <td width="16%">123456789</td>
+                                <td width="9%">下单时间：</td>
+                                <td width="17%">2016-11-11 10:25</td>
+                                <td width="5%">买家：</td>
+                                <td width="41%">王先生</td>
+                                <td width="9%">
+                                    <img src="../img/remove.png" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" class="t-b">
+                            <tr>
+                                <td width="34%">
+                                    <div class="pro-box f-cb">
+                                        <a href="" class="fl img a-img "><img width="82" height="82" src="../img/lajiao.png" alt="" class="im1"> </a>
+                                        <a href="">
+                                            <span class="posit">海天酱油家的味道好吃的味道哦你好加油</span>
+                                            <br />
+                                            <span class="posit-1"><font style="color: #9b9b9b;">500ml</font></span>
+                                            <div style="clear: both;"></div>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td width="12%" class="center">￥378.00</td>
+                                <td width="12%" class="center">1</td>
+                                <td width="13%" class="center">
+                                    <font style="color:#FF9A16;">123.00</font>
+                                </td>
+                                <td width="13%" class="cent">
+                                    <a href="" class="butn">
+                                        <font style="color:#a9a9a9">已完成</font>
+                                    </a>
+                                    <br /<br />
+                                    <a href="" class="butn"> 订单详情</a>
+                                </td>
+                                <td width="10%"><span class="spann"><font style="color: #98b6ea" >修改价格</font></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table width="100%">
+                        <tr>
+                            <td height="40px"></td>
+                        </tr>
+                        <tr>
+                            <td width="30%"></td>
+                            <td><img src="../img/bottom.png" alt="" /></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <!--尾部信息开始-->
+        <div class="footer">
+            <div class="foot w1190">
+                <div class="foot-l">
+                    <dl>
+                        <dt>会员中心</dt>
+                        <dd><a href="##">注册登录</a></dd>
+                        <dd><a href="##">会员制度</a></dd>
+                        <dd><a href="##">购物流程</a></dd>
+                        <dd><a href="##">积分说明</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="##">退换货政策</a></dd>
+                        <dd><a href="##">退换货流程</a></dd>
+                        <dd><a href="##">发票制度</a></dd>
+                        <dd><a href="##">投诉建议</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>商家中心</dt>
+                        <dd><a href="##">免费入驻</a></dd>
+                        <dd><a href="##">后台管理</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>公司介绍</dt>
+                        <dd><a href="##">关于我们</a></dd>
+                        <dd><a href="##">联系我们</a></dd>
+                    </dl>
+                </div>
+                <div class="foot-r">
+                    <dl>
+                        <dt>客户服务中心</dt>
+                        <dd><a href="##" class="callme">全国免费热线：400-8888-8888</a></dd>
+                        <dd><a href="##">工作时间：工作日9:00-17:00</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="copyr w1190">
+                <span class="copyr-l">Copyright&nbsp;@&nbsp;2016&nbsp;杭州创威光电科技有限公司&nbsp;版权所有.&nbsp;All&nbsp;Rights&nbsp;Reserved.&nbsp;浙ICP备00000000号</span>
+                <span class="by">网站建设：博采网络</span>
+            </div>
+        </div>
+        <!--尾部信息结束-->
+        <script src="../js/jquery-min.js"></script>
+        <script src="../js/jquery-ui-1.10.4.custom.js"></script>
+        <script src="../js/layer.js"></script>
+        <script>
+        $(".shop15-remove").click(function() {
+            $(this).parents(".shop15-main").hide()
+        })
+        $('.spann').on('click', function() {
+            layer.open({
+                type: 2,
+                title: '修改价格',
+                area: ['892px', '396px'],
+                shade: 0.6,
+                shadeClose: false, //点击遮罩关闭
+                content: 'floor.html',
+            });
+        });
+        $("body").on("click", ".canso", function() {
+            alert(1)
+            $(".layui-layer-shade").hide();
+            $(".layui-layer").hide()
+        })
+
+        $(function() {
+            $("#datepicker").datepicker();
+            $('#datepicke').datepicker();
+        });
+        </script>
+</body>
+
+</html>

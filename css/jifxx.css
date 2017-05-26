@@ -1,0 +1,62 @@
+.cheap-info-box1{
+    width: 980px;
+}
+.cheap-info-box1{
+    margin: 0
+}
+.cheap-info-img{
+    width: 425px;
+}
+.img-show-box img{
+    width: 425px;
+}
+.img-show-box{
+    width: 425px;
+}
+.ol-box{
+    width: 425px;
+}
+.cheap-info-tit,.cheap-info-info,.cheap-info-boxinfo,.my-sun,.g-car{
+    margin-left: 20px;
+}
+.my-sun{
+    margin-top: 20px;
+}
+.cheap-info-box1-l{
+    width: 980px;
+}
+.cheap-info-doll{
+    float: left;
+    width: 554px;
+}
+.cheap-info-down-l{
+    float: none;
+}
+.jifxx-box-l{
+    width: 980px;
+    float: left;
+}
+.jifxx-box-r{
+   float: right;
+   width: 193px;
+}
+.jifxx-box{
+    overflow: hidden;
+}
+
+.cheap-rrr-pro li a.img-a{
+    padding: 25px 20px 0 20px;
+}
+.cheap-rrr-pro img{
+    width: 140px;
+    height: 140px;
+}
+.cheap-rrr-pro li{
+    height: 240px;
+}
+.cheap-rrr-pro li span{
+    font-size: 14px;
+}
+.cheap-rrr-pro li i{
+    font-size: 18px;
+}

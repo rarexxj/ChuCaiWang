@@ -1,0 +1,38 @@
+
+.sale-box .help-l h3{
+	width: 161px;
+	line-height: 60px;
+	padding-left: 38px;
+	color: #323232;
+	font-size: 14px;
+	background-color: #F3F3F3;
+	background-repeat: no-repeat;
+	background-position:5% 50%;
+	margin: 0;
+}
+.h1{
+	background-image: url(../img/quan.png);
+}
+.h2{
+	background-image: url(../img/shoo.png);
+}
+.h3{
+	background-image: url(../img/bianji.png);
+}
+.h4{
+	background-image: url(../img/money.png);
+}
+.h5{
+	background-image: url(../img/xitong.png);
+}
+
+.pos{
+	position: relative;
+	top: 35px;
+	left: 15px;
+}
+.back-c{
+	background-color: white;
+	height: 100%;
+}
+

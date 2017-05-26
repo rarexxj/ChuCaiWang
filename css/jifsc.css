@@ -1,0 +1,22 @@
+.cheap-rrr{
+    float: right;
+
+}
+.stores-right{
+    float: left;
+}
+.stores-pro li{
+    width: 230px;
+}
+.stores-right{
+    width: 980px;
+}
+.stores-pro li{
+    margin-right: 17px;
+}
+.cheap-rrr{
+    width: 190px;
+}
+.stores-pro li:hover{
+    border: 1px solid #ff9c18;
+}

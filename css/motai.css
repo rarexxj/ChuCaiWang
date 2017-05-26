@@ -1,0 +1,67 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.floa_l{
+	display: inline-block;
+	float: left;
+	width: 240px;
+	margin-left: 24px;
+	}
+.floa_r{
+	display: inline-block;
+	float: left;
+	color: #666666;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.tupia{
+	width: 85px;
+	height:85px;
+	border:1px solid #e0e0e0;
+	margin: 16px 0 26px 0;
+}
+.tupia img{
+	width: 100%;
+	height:100%;
+}
+p{
+	font-size: 17px;
+	font-weight: bold;
+	color: #666666;
+}
+.xian{
+	display: inline-block;
+}
+span{
+	color: #646464;
+	font-size: 14px;
+}
+.div-img{
+	margin-top: 40px;
+}
+.div-img img{
+	width: 85px;
+	height: 85px;
+	
+	margin-left: 10px;
+}
+.p-css{
+	width: 468px;
+	height: 80px;
+	border: 1px solid #E0E0E0;
+}
+.sub-ti{
+	padding: 10px 48px;
+	font-weight: bold;
+	background-color: #009D4A;
+	color: white;
+	margin-top:20px;
+	border: none;
+	font-size: 16px;
+	display: block;
+}
+.xian img{
+	float: left;
+}

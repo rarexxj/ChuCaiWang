@@ -1,0 +1,122 @@
+.handpick .list li{
+    width: 583px;height: 260px;
+}
+
+.handpick .list .img{
+    float: left;
+    width: 260px;
+    height: 260px;
+}
+.handpick .list .introce{
+    float: left;
+}
+.tuangxq-jind {
+    overflow: hidden;
+    width: 300px;
+    margin:0px;
+    margin-top: 10px;
+}
+
+.tuangxq-jindtbg {
+    background-color: #e6e6e6;
+    width: 207px;
+    height: 10px;
+}
+
+.tuangxq-jindt {
+    width: 50%;
+    background-color: #ff9c18;
+    height: 10px;
+}
+
+.tuangxq-jindtbg{
+    float: left;
+    margin-top: 3px;
+}
+.tuangxq-jind p{
+    float: left;
+    margin-left: 3px;
+    color: #666;
+}
+.handpick .list .name{
+    margin: 0;
+    font-size: 18px;
+    color: #333;font-weight: bold;
+    width: 300px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.handpick .list .price{
+    margin: 0;
+    font-size: 30px;
+    color: #ff9c18;
+    margin-top: 20px;
+}
+.handpick .list .price .price-l{
+    margin: 0;
+    font-size: 30px;
+    color: #ff9c18;
+}
+.handpick .list .price .goum{
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+    text-decoration:line-through;
+}
+.handpick .list .introce button{
+    width: 110px;
+    height: 30px;
+    background-color: #ff9c18;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
+/*banner*/
+        .tuangjx-banner{
+            position: relative;
+        }
+        .tuangjx-banner-img {
+            margin: 0 auto;
+        }
+        
+        .tuangjx-banner-img1 {
+            background: url(../img/tuangjx-img1.png);
+            width: 1920px;
+            height:428px;
+            margin: 0 auto;
+            border-top: 2px solid #009d4a;
+        }
+        .tuangjx-banner-img2 {
+            background: url(../img/tuangjx-img1.png);
+            width: 1920px;
+            height:428px;
+            margin: 0 auto;
+            border-top: 2px solid #009d4a;
+        }
+        .tuangjx-banner-img3 {
+            background: url(../img/tuangjx-img1.png);
+            width: 1920px;
+            height:428px;
+            margin: 0 auto;
+            border-top: 2px solid #009d4a;
+        }
+
+        .tuangjx-banner-tab{
+            position: absolute;
+            bottom:20px;
+            left: 50%;
+            margin-left: -78px;
+
+        }
+        .tuangjx-banner-tab li{
+            width: 27px;height: 4px;
+            background-color: #fff;
+            float: left;
+            margin-right: 7px;
+        }
+        .tuangjx-banner-tab li.on{
+            background-color: #009d4a;
+        }
+        .tuangjx-banner-tab ul{
+            overflow: hidden;
+        }

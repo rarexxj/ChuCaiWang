@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/tanchu.css" />
+		<link rel="stylesheet" type="text/css" href="../css/shop-xxj.css" />
+		<title>弹出层</title>
+	</head>
+	<body>
+		<table width="100%" class="t_a_b">
+			
+			<tr>
+				<td width="40%">商品名称</td>
+				<td width="14%">单价(元)</td>
+				<td width="">数量</td>
+				<td width="">总计(元)</td>
+				<td width="">优惠价</td>
+			</tr>
+		</table>
+		<table width="100%" class="table-ab">
+			<tr>
+				<td width="61%">
+					<div class="div-b">
+						<div class="div-d1">
+							<div class="div-d2">
+							    <img src="../img/lajiao.png" alt="" />
+							</div>
+							<div class="div-dr">
+								<h3>太好吃货岁和你时候 哦绝对好</h3>
+							    <h3><font style="color:#9b9b9b;">500ml</font></h3>
+							</div>
+							
+						</div>
+						<div class="di-ba">￥378.00</div>
+						<div class="flo-d">1</div>
+						<div style="clear:both;"></div>
+					</div>
+					<div class="div-b">
+						<div class="div-d1">
+							<div class="div-d2">
+							    <img src="../img/lajiao.png" alt="" />
+							</div>
+							<div class="div-dr">
+								<h3>太好吃货岁和你时候 哦绝对好</h3>
+							    <h3><font style="color:#9b9b9b;">500ml</font></h3>
+							</div>
+							
+						</div>
+						<div class="di-ba">￥378.00</div>
+						<div class="flo-d">1</div>
+						<div style="clear:both;"></div>
+					</div>
+				</td>
+				<td width="15%" class="chengse" style="text-align: center;">
+					￥387.00
+				</td>
+				<td width="">
+					<input type="text" />元
+				</td>
+			</tr>
+		</table>
+		<button class="sure">确定</button>
+		<button class="canso">取消</button>
+	</body>
+	<script src="../js/jquery-min.js"></script>
+	<script type="text/javascript">
+	 $("body").on("click", ".canso", function() {
+            $(".layui-layer-shade").hide();
+            $("#layui-layer1").hide()
+        })
+	</script>
+</html>

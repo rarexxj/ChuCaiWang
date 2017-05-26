@@ -1,0 +1,87 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/help-b1.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+
+.page {
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 60px;padding-left: 400px;
+}
+.page a {
+    width: 70px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    color: #dfdfdf;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: center;
+}
+.page a.prev-p {
+    margin-right: 5px;
+}
+.page a.next-p {
+    margin-left: 5px;
+}
+.page a.active {
+    
+    color: #3c3c3c;
+}
+
+.page a,.page .nub ,.page .ye,.page .pager-r{
+    
+    float: left;
+}
+.page ul li {
+    width: 34px;height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #dfdfdf;
+    float: left;
+}
+.page ul {
+    overflow: hidden;
+}
+.page .nub li.on{
+    background-color: #009d4a;
+    color: white;border: 1px solid #009d4a;
+}
+
+.page .page-r {
+    font-size: 12px;
+    color:#999;
+    float: left;
+}
+.page .ye{
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 36px;
+     font-size: 12px;
+    color:#999;
+}
+.page .page-r input{
+    width: 46px;
+    height: 18px;
+    text-align: center;
+    margin: 0 5px 0 5px;
+}
+.page .page-r button{
+    width: 68px;
+    height: 35px;
+    background-color: #009d4a;
+    color: white;
+    font-size: 14px;
+    margin-left:4px;
+}
+
+.cheap-info-boxinfo .vi-font12{
+    color: #999;font-size: 12px;
+}
+.vi-font12{
+    color: #999;font-size: 12px;
+}

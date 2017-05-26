@@ -1,0 +1,132 @@
+.stores-pro-te {
+    display: block;
+    padding-left: 13px;
+    font-size: 14px;
+    color: #333;
+    width: 207px;
+    margin-top: 8px;
+}
+
+.stores-pro-pic {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #ff9c18;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+
+.stores-pro li {
+    height: 290px;
+}
+
+.ph-pro-box .bd {
+    margin-top: 0
+}
+
+.stores-page {
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    margin-left: -276px;
+}
+
+.stores-right {
+    position: relative;
+}
+
+.stores-pro {
+    margin-bottom: 100px;
+}
+
+.handpick {
+    border: none;
+}
+
+.handpick .list li {
+    width: 281px;
+    margin-right: 19px;
+    margin-left: 0px;
+}
+
+.handpick .list ul {
+    width: 1300px;
+}
+
+.youhcx-img1 {
+    background: url(../img/youhcx-img1.png) center center;
+    width: 1920px;
+    height: 428px;
+    margin-top: -4px;
+    margin: 0 auto;
+}
+.tuangjx-img1 {
+    background: url(../img/tuangjx-img1.png) center center;
+    width: 1920px;
+    height: 428px;
+    margin-top: -4px;
+    margin: 0 auto;
+}
+
+.youhcx-t-p {
+    font-size: 28px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.handpick .list li:hover {
+    border: 1px solid #ff9c18;
+}
+
+.tuangxq-jind {
+    overflow: hidden;
+    width: 400px;
+    margin-left:80px;
+}
+
+.tuangxq-jindtbg {
+    background-color: #e6e6e6;
+    width: 207px;
+    height: 10px;
+}
+
+.tuangxq-jindt {
+    width: 50%;
+    background-color: #ff9c18;
+    height: 10px;
+}
+
+.tuangxq-jindtbg{
+    float: left;
+    margin-top: 3px;
+}
+.tuangxq-jind p{
+    float: left;
+    margin-left: 3px;
+    color: #666;
+}
+.jhb{
+    bottom: 30px;
+    overflow: hidden;
+    margin-left: 66px;
+}
+.jhb .more{
+    background: url(../img/img-135.png) no-repeat 0px 3px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 16px;
+}
+.jhb .fenx{
+    width:70px;
+    float: left;
+
+}
+.jhb .shouc{
+    width: 80px;
+    float: left;
+}
+.jhb .collect{
+    padding-left: 18px;
+    background: url(../img/img-134.png) no-repeat 0px 3px;
+}

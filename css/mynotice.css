@@ -1,0 +1,278 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/img-2.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+
+.shop-know-te1-tit span {
+    border-bottom: 3px solid #009d4a;
+}
+
+.shop-know-lc {
+    background: url(../img/sjru-img-128.png);
+    width: 1190px;
+    height: 35px;
+}
+
+.side-service-h2 {
+    border-top: 2px solid #009d4a;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-nav {
+    background: #f7f7f7;
+}
+
+.sale {
+    background: #fff;
+}
+
+.s-member-wrap .s-mem-msg .fir-row .phone i {
+    color: #ff9c4a;
+}
+
+.s-member-wrap .s-mem-msg .fir-row .phone {
+    font-size: 14px;
+    color: #666;
+}
+
+.s-member-wrap .s-mem-msg .fir-row .verify {
+    background: url(../img/gerzx-logo1.png) no-repeat;
+    width: 40px;
+    height: 33px;
+    background-position: 1px center;
+}
+
+.s-member-wrap .s-mem-msg .order-num a {
+    padding-top: 30px;
+}
+
+.sale-right-box-h2 {
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.sale-right-box-h2 h2 {
+    line-height: 70px;
+    float: left;
+}
+
+.sale-right-box-h2 a {
+    float: right;
+    height: 55px;
+    line-height: 70px;
+}
+
+.s-evalu-wrap .s-ord-list .name {
+    font-size: 12px;
+}
+
+.s-evalu-wrap .s-ord-list td {
+    font-size: 12px;
+}
+
+.gerzx-pay {
+    border: 1px solid #e4e4e4;
+    width: 71px;
+    height: 22px;
+    color: #aaa;
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.pay-a {
+    color: #5990e5;
+}
+
+.s-ord-list th span {
+    color: #666;
+    font-size: 12px;
+}
+
+.s-ord-list .gerzx-c {
+    color: #ff9c18;
+}
+
+.dustbin {
+    background: url(../img/dustbin.png);
+    width: 36px;
+    height: 30px;
+    float: right;
+    margin-top: 4px
+}
+
+.s-evalu-wrap .s-ord-list th {
+    line-height: 38px;
+}
+
+.sale-right {
+    padding-bottom: 20px;
+}
+
+.sale-right-box-h2 h2 {
+    position: absolute;
+}
+
+.s-bot-recom {
+    margin-top: 20px;
+}
+
+.gerzx-xx {
+    width: 100px;
+    height: 120px;
+    background: url(../img/gerzx-xx-img1.png);
+}
+
+.gerzx-js h2 {
+    color: #666;
+    font-size: 14px;
+    margin-top: 26px;
+}
+
+.gerzx-js p {
+    color: #666;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.gerzx-js span {
+    font-size: 12px;
+}
+
+.gerzx-pro {
+    height: 120px;
+    border-bottom: 1px dashed #eee;
+}
+
+.side-service {
+    border: 1px solid #f2f2f2;
+    border-top: none;
+}
+
+.sale-right {
+    border:none;
+}
+
+.service-nav-ul li a:hover {
+    color: #009d4a;
+}
+
+.service-nav-ul li a.cur {
+    color: #009d4a;
+}
+
+.s-myorder .s-tab-list td .cont {
+    font-size: 12px;
+    width: 180px;
+}
+
+table td {
+    font-size: 12px;
+}
+
+.s-myorder .s-tab-list td .butn {
+    line-height: 22px;
+}
+
+.font1 {
+    font-size: 12px;
+    color: #666;
+}
+
+.s-myorder .demand-box .date {
+    width: 150px;
+}
+
+.s-myorder .demand-box .datebox {
+    width: 165px;
+}
+
+.sub-btn {
+    margin-left: 20px;
+}
+
+.recharge-nav {}
+
+.recharge-nav li a {
+    font-size: 14px;
+}
+
+.recharge-nav li a {
+    padding: 0px 39px;
+}
+
+.mynotice-pro {
+    width: 890px;
+    overflow: hidden;
+}
+
+.mynotice-imgbox {
+    width: 108px;
+    height: 108px;
+    float: left;
+}
+
+.mynotice-imgbox img {
+    width: 108px;
+    height: 108px;
+}
+
+.mynotice-pro {
+    padding: 20px 0px;
+}
+
+.mynotice-fontbox {
+    float: left;
+    padding: 8px 0 0 14px;
+}
+
+.mynotice-fontbox h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 18px;
+    font-weight: bold;
+    background: url(../img/mynotice-logo1.png) no-repeat;
+    padding-left: 30px;
+}
+
+.mynotice-fontbox h2.noget {
+    background: url(../img/mynotice-logo2.png) no-repeat;
+}
+
+.mynotice-fontbox p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 18px;
+}
+
+.mynotice-fontbox span {
+    font-size: 12px;
+    color: #999;
+    background: url(../img/mynotice-time.png) no-repeat;
+    padding-left: 30px;
+    display: block;
+}
+
+.mynotice-bord {
+    height: 148px;
+    border-bottom: 1px dashed #eee;
+}
+
+.page {
+    background: url(../img/img-37.png) no-repeat;
+    float: right;
+    width: 552px;
+}
+
+.page-box {
+    width: 890px;
+    overflow: hidden;
+}

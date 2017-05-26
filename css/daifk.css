@@ -1,0 +1,121 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/img-2.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+
+.shop-know-te1-tit span{
+border-bottom:3px solid #009d4a; 
+}
+.shop-know-lc{
+	background: url(../img/daifk-img2.png);
+	width: 1190px;
+	height: 35px;
+	margin-bottom: 20px;
+}
+
+.daifu-l{
+	float: left;
+	width: 486px;
+	height: 100%;
+	border-right: 1px solid #e0e0e0;
+}
+.daifu-l2{
+	float: left;
+}
+.daifk{
+	overflow: hidden;
+	border: 1px solid #e0e0e0;
+}
+.daifu-l h2{
+	width:100%;
+	height: 42px;
+	background: #f9f9f9;
+	color: #333;line-height: 42px;
+	font-size: 16px;
+}
+.daifu-l h2 span{margin-left: 26px;}
+.daifu-l dl{
+	height: 171px;
+	border-top:1px solid #e0e0e0;
+	width:460px;
+	padding-left: 26px;
+	padding-top: 21px;
+}
+.daifu-l dl dd{
+	line-height: 36px;
+	font-size: 14px;
+	color: #666;
+}
+.daifu-l dl dd span{
+	width: 70px;
+	text-align: right;
+	display: inline-block;
+	margin-right: 10px;
+}
+.daifu-l2{
+	padding: 80px 0 0 60px;
+}
+.daifu-l2 .daifk-img1{
+	background: url(../img/daifk-img1.png) no-repeat;
+	width: 270px;
+	height: 52px;
+	font-size: 24px;
+	color:#333;
+	padding-left: 80px;padding-top: 10px;
+}
+.daifu-l2 .daifk-img2{
+	background: url(../img/daifh-img1.png) no-repeat;
+	width: 270px;
+	height: 52px;
+	font-size: 24px;
+	color:#333;
+	padding-left: 80px;padding-top: 10px;
+}
+.daifu-l2 span{
+	font-size: 12px;
+	color: #666;
+}
+.daifu-l2 span i{
+	color: red;
+}
+.daifu-l2 p{
+	line-height: 32px;
+	margin-left: 80px;
+}
+.daifu-l2 button{
+	width: 98px;
+	height: 28px;
+	border: 1px solid #e4e4e4;
+	background: #f8f8f8;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.ser-end-box{
+	width: 1190px;
+	margin: 0 auto;
+}
+.ser-end-box-z{
+	margin-top:30px; 
+}
+.ser-end-sp1{
+	background: #f9f9f9;
+	font-size: 12px;
+	color: #666;
+}
+.mj-end{
+	margin-top: 0px;
+	border: 1px solid #e0e0e0;
+	border-top:none;
+	width: 1188px;
+}
+.shopname{
+	background: url(../img/shangp-sj1.png) no-repeat;
+	background-position:120px center;
+	margin-bottom: 20px;
+	color: #666;
+}

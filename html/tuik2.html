@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/zxx.lib.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/sjj.css">
+    <link rel="stylesheet" type="text/css" href="../css/tuik2.css">
+    <style type="text/css">
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    
+    .clearfix {
+        zoom: 1;
+    }
+    
+    .yul-img {
+        position: relative;
+        float: left;
+        margin-right: 4px;
+    }
+    
+    .yul-img-xx {
+        background: url(../img/s_ico_16.png);
+        position: absolute;
+        right: -8px;
+        top: -8px;
+        width: 16px;
+        height: 16px;
+        display: none;
+    }
+    
+    .yul-img-box {
+        overflow: hidden;
+    }
+    
+    .kechengxq-zhezhao {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: none;
+    }
+    
+    .kechengxq-zhezhaoimg {
+        width: 500px;
+        height:500px;
+        position: absolute;
+        left:50%;
+        top:50%;
+        margin-top: -250px;
+        margin-left:-250px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="w1190 top">
+            <div class="hi">HI,<a href="##">Admin</a>欢迎来到厨菜网!</div>
+            <ul class="">
+                <li><a href="html/login.html">登录</a>|</li>
+                <li><a href="html/zhuc.html">免费注册</a>|</li>
+                <li><a href="">我的订单</a>|</li>
+                <li><a href="" class="xxBtn">我的消息</a>|</li>
+                <li><a href="html/shopcar.html" class="shopC">购物车</a></li>
+                <li><a href="html/help.html">帮助中心</a>|</li>
+                <li><a href="">企业会员</a>|</li>
+                <li><a href="">商家入口</a></li>
+            </ul>
+        </div>
+        <div class="w1190 logoBar">
+            <img src="../img/logo.png" class="logo">
+            <div class="search">
+                <input placeholder="请输入商品关键字" type="text" />
+                <button>搜索</button>
+                <div class="search-logo"></div>
+            </div>
+            <div class="phone">
+                <img src="../img/people.png">
+                <div class="number">
+                    <p>全国客服电话</p>
+                    <h2>400-888-8888</h2>
+                </div>
+            </div>
+        </div>
+        <div class="borderbg"></div>
+        <div class="bread">
+            <a class="bread-a home" href="## ">首页</a>>
+            <a class="bread-a" href="javascript:;">我的订单</a>>
+            <a class="bread-a" href="javascript:;">申请退款</a>
+            <!-- 
+        <span class="info-pro-te">共<font style="color:#c40000;">300</font>条相关产品</span> -->
+        </div>
+        <div class="shop-know-lc">
+        </div>
+        <div class="w1190 daifk">
+            <div class="daifu-l">
+                <div class="tuik-l-t">
+                    <h2><span>商品信息</span></h2>
+                    <div class="tuik-m1">
+                        <div class="tuik-pro"><img src="../img/pro1.png"></div>
+                        <div class="tuik-int">
+                            <h3>海天金标生抽1.9L实惠好吃的好酱油 家的味道</h3>
+                            <p>300ml<span>x1</span></p>
+                        </div>
+                    </div>
+                    <p class="price">单价：&nbsp;&nbsp;&nbsp;<span>￥378.00</span></p>
+                    <p class="price">总价：&nbsp;&nbsp;&nbsp;<span style="color:#ff9c48;">￥378.00</span></p>
+                </div>
+                <dl class="tuik-l-b">
+                    <dd><span>订单编号：</span>188888888</dd>
+                    <dd><span>成交时间：</span>2016-6-23 16:44:00</dd>
+                    <dd><span>商&nbsp;&nbsp;&nbsp;家：</span>福临门官方旗舰店</dd>
+                </dl>
+            </div>
+            <div class="daifu-l2">
+                <h2><span>退款</span></h2>
+                <div class="sale-right-box-te">
+                    <form action="##">
+                        <table class="sale-tablea">
+                            <tr>
+                                <td colspan="2"><span class="sale-tablea-spa">退款原因：</span></td>
+                                <td>
+                                    <select class="sale-tablea-ina" name="" id="">
+                                        <option value="">未上门服务</option>
+                                        <option value="">未上门服务</option>
+                                        <option value="">未上门服务</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" valign="top"><span class="sale-tablea-spa">退款说明：</span></td>
+                                <td>
+                                    <textarea class="sale-tablea-texta" name="" id="" cols="30" rows="10"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><span class="sale-tablea-spa">上传凭证：</span></td>
+                                <td>
+                                    <div class="sale-tablea-fila-box">
+                                        上传图片
+                                        <input class="sale-tablea-fila" type="file">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><span class="sale-tablea-tea">注：每张图片大小不超过5M，最多3张，支持GIF、JPG、PNG、BMP格式</span></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div>
+                    <div class="tuik2-img clearfix">
+                        <div class="yul-img">
+                            <img class="pushimg" src="../img/pro1.png" alt="">
+                            <span class="yul-img-xx"></span>
+                        </div>
+                        <div class="yul-img">
+                            <img class="pushimg" src="../img/pro1.png" alt="">
+                            <span class="yul-img-xx"></span>
+                        </div>
+                        <div class="yul-img">
+                            <img class="pushimg" src="../img/pro1.png" alt="">
+                            <span class="yul-img-xx"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <input value="提交" class="sale-tablea-suba" type="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot w1190">
+                <div class="foot-l">
+                    <dl>
+                        <dt>会员中心</dt>
+                        <dd><a href="##">注册登录</a></dd>
+                        <dd><a href="##">会员制度</a></dd>
+                        <dd><a href="##">购物流程</a></dd>
+                        <dd><a href="##">积分说明</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="##">退换货政策</a></dd>
+                        <dd><a href="##">退换货流程</a></dd>
+                        <dd><a href="##">发票制度</a></dd>
+                        <dd><a href="##">投诉建议</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>商家中心</dt>
+                        <dd><a href="##">免费入驻</a></dd>
+                        <dd><a href="##">后台管理</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>公司介绍</dt>
+                        <dd><a href="##">关于我们</a></dd>
+                        <dd><a href="##">联系我们</a></dd>
+                    </dl>
+                </div>
+                <div class="foot-r">
+                    <dl>
+                        <dt>客户服务中心</dt>
+                        <dd><a href="##" class="callme">全国免费热线：400-8888-8888</a></dd>
+                        <dd><a href="##">工作时间：工作日9:00-17:00</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="copyr w1190">
+                <span class="copyr-l">Copyright&nbsp;@&nbsp;2016&nbsp;杭州创威光电科技有限公司&nbsp;版权所有.&nbsp;All&nbsp;Rights&nbsp;Reserved.&nbsp;浙ICP备00000000号</span>
+                <span class="by">网站建设：博采网络</span>
+            </div>
+        </div>
+    </div>
+    <div class="kechengxq-zhezhao">
+        <img class="kechengxq-zhezhaoimg">
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="../js/jquery.scrollLoading.js"></script>
+<script type="text/javascript" src="../js/imgshow.js"></script>
+<script type="text/javascript" src="../js/magnifier.js"></script>
+<script type="text/javascript" src="../js/bocfe.js"></script>
+<script>
+$(".yul-img").on("mouseover mouseout", function(event) {
+    if (event.type == "mouseover") {
+        $(".yul-img-xx").hide();
+        $(this).children(".yul-img-xx").show();
+    } else if (event.type == "mouseout") {
+        $(this).children(".yul-img-xx").hide();
+    }
+})
+
+$(".yul-img-xx").on("click", function() {
+    $(this).parents(".yul-img").hide();
+})
+
+$('.pushimg').on('click', function() {
+    var a = $(this).attr('src')
+    console.log(a)
+
+    $('.kechengxq-zhezhaoimg').attr('src',a);
+    $('.kechengxq-zhezhao').show();
+})
+
+$('.kechengxq-zhezhao').on('click', function() {
+    $(this).hide();
+})
+</script>

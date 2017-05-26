@@ -1,0 +1,17 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/img-2.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+.shop-know-te1-tit span{
+border-bottom:3px solid #009d4a; 
+}
+.shop-know-lc{
+	background: url(../img/sjru-img-128.png);
+	width: 1190px;
+	height: 35px;
+}

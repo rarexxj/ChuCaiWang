@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/wjmm.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="header w1190">
+            <img src="../img/logo.png" class="logo">
+        </div>
+    </div>
+    <div class="mid w1190">
+        <div class="title">
+            <div class="phone active">01填写手机号码</div>
+            <div class="password">02重新设置密码</div>
+        </div>
+        <div class="main">
+            <div class="zhuch">
+                <div class="main1">
+                    <span>手机号码:</span>
+                    <input class="phone" type="text" placeholder="请输入您的手机号码">
+                    <!-- <i class="phone"></i> -->
+                </div>
+                <div class="main2">
+                    <span>图片验证码:</span>
+                    <input class="tu" type="text" placeholder="请输入图形验证码">
+                    <div class="ew"></div>
+                </div>
+                <div class="main3">
+                    <span>短信验证码:</span>
+                    <input class="message" type="text" placeholder="请输入短信验证码">
+                    <input type="button" value="获取验证码" class="button">
+                </div>
+                <div class="main4">
+                    <button class="next">下一步</button>
+                </div>
+            </div>
+            <div class="shezmm">
+                <div class="main1">
+                    <span>密码:</span>
+                    <input class="phone" type="text" placeholder="请输入密码">
+                    <!-- <i class="phone"></i> -->
+                </div>
+                <div class="main2">
+                    <span>确认密码:</span>
+                    <input class="tu" type="text" placeholder="请输入密码">
+                </div>
+                <div class="main4">
+                    <button>确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot w1190">
+            <div class="foot-l">
+                <dl>
+                    <dt>会员中心</dt>
+                    <dd><a href="##">注册登录</a></dd>
+                    <dd><a href="##">会员制度</a></dd>
+                    <dd><a href="##">购物流程</a></dd>
+                    <dd><a href="##">积分说明</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="##">退换货政策</a></dd>
+                    <dd><a href="##">退换货流程</a></dd>
+                    <dd><a href="##">发票制度</a></dd>
+                    <dd><a href="##">投诉建议</a></dd>
+                </dl>
+                <dl>
+                    <dt>商家中心</dt>
+                    <dd><a href="##">免费入驻</a></dd>
+                    <dd><a href="##">后台管理</a></dd>
+                </dl>
+                <dl>
+                    <dt>公司介绍</dt>
+                    <dd><a href="##">关于我们</a></dd>
+                    <dd><a href="##">联系我们</a></dd>
+                </dl>
+            </div>
+            <div class="foot-r">
+                <dl>
+                    <dt>客户服务中心</dt>
+                    <dd><a href="##" class="callme">全国免费热线：400-8888-8888</a></dd>
+                    <dd><a href="##">工作时间：工作日9:00-17:00</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="copyr w1190">
+            <span class="copyr-l">Copyright&nbsp;@&nbsp;2016&nbsp;杭州创威光电科技有限公司&nbsp;版权所有.&nbsp;All&nbsp;Rights&nbsp;Reserved.&nbsp;浙ICP备00000000号</span>
+            <span class="by">网站建设：博采网络</span>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(".next").click(function() {
+    $(".zhuch").hide();
+    $(".shezmm").show();
+    $(".password").addClass("active");
+    $(".phone").removeClass("active");
+})
+</script>

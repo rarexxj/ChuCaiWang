@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/motai.css" />
+    <title></title>
+</head>
+
+<body>
+    <div class="floa_l">
+        <p>商品</p>
+        <div class="tupia"><img src="../img/pro11.png" alt="" /></div>
+        <span style="color: #666666;font-size: 13px;">海天金标生抽1.9L实惠好吃的好酱油家的味道</span>
+    </div>
+    <div class="floa_r">
+        <span>评&nbsp;&nbsp;分：</span>
+        <div class="xian">
+            <img src="../img/xing.png" alt="" />
+            <img src="../img/xing.png" alt="" />
+            <img src="../img/xing.png" alt="" />
+            <img src="../img/xing.png" alt="" />
+            <img src="../img/xing.png" alt="" />
+        </div>
+        <br />
+        <br />
+        <span style="color: #666666;">评价内容：<span>比想象中还要好！好评！</span></span>
+        <div class="div-img">
+            <img src="../img/pro1.png" alt="" />
+            <img src="../img/pro1.png" alt="" />
+            <img src="../img/pro1.png" alt="" />
+        </div>
+        <p>回复</p>
+        <textarea  class="p-css"></textarea>
+        <button class="sub-ti layui-layer-close">提交</button>
+    </div>
+    <script src="../js/jquery-min.js"></script>
+        <script src="../js/layer.js"></script>
+    <script>
+    $('.xian img').on('click', function() {
+        $(this).siblings().attr('src', '../img/xing.png')
+            // event.target.src="../img/xing2.png"
+        var _index = $(this).index();
+
+        for (i = 0; i < _index + 1; i++) {
+            $(this).parent().children('img').eq(i).attr('src', '../img/xing2.png')
+        }
+    })
+
+    $('sub-ti').click(function(){
+    	layer.close()
+    })   
+     </script>
+</body>
+
+</html>

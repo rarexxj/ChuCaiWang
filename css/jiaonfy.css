@@ -1,0 +1,70 @@
+.f14 {
+    font-size: 14px;
+}
+
+.borderbg {
+    background: url(../img/img-2.png) repeat-x;
+    height: 12px;
+    margin-top: -6px;
+}
+.shop-know-te1-tit span{
+border-bottom:3px solid #009d4a; 
+}
+.shop-know-lc{
+	background: url(../img/sjrz-img-129.png);
+	width: 1190px;
+	height: 35px;
+}
+.shop-know-lc3{
+	background: url(../img/sjrz-img-130.png);
+	width: 1190px;
+	height: 35px;
+	margin: 0 auto;
+}
+.shop-know-lc3{
+	background: url(../img/sjrz-img-131.png);
+	width: 1190px;
+	height: 35px;
+	margin: 0 auto;
+}
+.shop-table-input3{
+	background: #009d4a;
+}
+.shop-table-input2{
+	margin-right: 2px;
+}
+.shop-book-sp-rr{
+	margin-left:40px;
+}
+.w197 input{
+	background: #009d4a;
+}
+.shop-book-box{
+	min-height: 740px;
+}
+.shop-know-te1-tit{
+	margin-top: 20px;
+}
+.service-l-wip{
+	border-top: none;
+}
+.z3-box span{
+	width: 940px;
+	color: #666;
+}
+.z3-box .z3-te1{
+	font-size: 24px;
+	color: #333;
+}
+.shop-money-box-te{
+	margin-top: 90px;
+}
+.shop-money-pay-box{
+	padding-bottom:40px;
+}
+.shop-pad-end-sub{
+	background: #009d4a;
+}
+.thr-in-radio{
+	margin-top: 46px;
+}

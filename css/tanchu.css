@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.t_a_b{
+	
+	color: #666666;
+	font-size: 12px;
+	background-color: #F9F9F9;
+	
+}
+.t_a_b{
+	padding: 5px 15px;
+	
+}
+.table-ab{
+	
+	border-collapse: collapse;
+	color: #666666;
+	font-size: 14px;
+}
+
+.table-ab tr td{
+	border:1px solid #E0E0E0
+}
+.table-ab input{
+	width: 100px;
+	height: 28px;
+	border: 1px solid #E0E0E0;
+	margin-left: 15px;
+	margin-right: 8px;
+}
+.div-d1{
+	width: 358PX;
+	line-height: 100PX;
+	padding: 15px;
+}
+.div-d2{
+	width: 85px;
+	height: 85px;
+	border: 1px solid #E0E0E0;
+	display: inline-block;
+	float: left;
+}
+.div-d2  img{
+	width: 100%;
+	height: 100%;
+}
+.div-dr{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	
+}
+.div-dr h3{
+	font-size: 12px;
+	width: 220px;
+	line-height: 25px;
+}
+.di-ba{
+	display: inline-block;
+	float: left;
+	color: #666666;
+}
+.flo-d {
+	display: inline-block;
+	float: left;
+	margin-left: 85px;
+	color: #666666;
+}
+.sure{
+	margin-left: 260px;
+	width: 150px;
+	line-height: 30px;
+	background-color: #009D4A;
+	color: white;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	margin-right: 30px;
+}
+.canso{
+	width: 150px;
+	line-height: 30px;
+	background-color: #b5b5b5;
+	color: white;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+}

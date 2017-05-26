@@ -1,0 +1,506 @@
+        /*# sourceMappingURL=style.css.map */
+        
+        .w1190 {
+            width: 1190px;
+            margin: 0 auto;
+        }
+        
+        .header .fenl .slided dl dd a:hover {
+            color: #009d4a;
+        }
+        
+        .borderbg {
+            background: url(../img/help-b1.png) repeat-x;
+            height: 12px;
+            margin-top: -6px;
+        }
+        
+        body {
+            min-width: 1190px;
+            font-family: '微软雅黑';
+            font-size: 14px;
+        }
+        
+        a {
+            font-family: '微软雅黑'
+        }
+        
+        .header {
+            background: url(../img/top-bg.png) repeat-x;
+            width: 100%;
+        }
+        
+        .header .top {
+            line-height: 35px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header .hi {
+            float: left;
+            color: #999;
+        }
+        
+        .header .hi a {
+            color: #009d4a;
+        }
+        
+        .header .top ul {
+            float: right;
+            margin-right: -26px;
+        }
+        
+        .header .top ul li {
+            float: left;
+            color: #c5c5c5;
+            margin-right: 14px;
+        }
+        
+        .header .top ul li a {
+            color: #999;
+            margin-right: 14px;
+        }
+        
+        .header .top ul li a.xxBtn {
+            background: url(../img/xxbtn.png) no-repeat;
+            background-position: right center;
+            display: inline-block;
+            padding-right: 6px;
+        }
+        
+        .header .top ul li a.shopC {
+            background: url(../img/shopC.png) no-repeat;
+            background-position: left center;
+            padding-left: 18px;
+        }
+        
+        .header .logoBar {
+            height: 108px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .header .logoBar .logo {
+            margin-top: 20px;
+            float: left;
+        }
+        
+        .header .logoBar .search {
+            height: 37px;
+            background-color: #009d4a;
+            position: absolute;
+            left: 430px;
+            top: 34px;
+        }
+        
+        .header .logoBar .search input {
+            float: left;
+            width: 364px;
+            height: 31px;
+            border: 1px #009d4a solid;
+            margin-top: 2px;
+            margin-left: 2px;
+            line-height: 28px;
+            padding-left: 26px;
+        }
+        
+        .header .logoBar .search button {
+            float: left;
+            width: 84px;
+            height: 37px;
+            background-color: #009d4a;
+            cursor: pointer;
+            font-size: 14px;
+            color: white;
+            font-weight: bold;
+            vertical-align: middle;
+            text-align: center;
+            line-height: 35px;
+        }
+        
+        .header .logoBar .search .search-logo {
+            background: url(../img/search.png);
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            left: 10px;
+            top: 12px;
+        }
+        
+        .header .logoBar .phone {
+            float: right;
+            margin-top: 10px;
+        }
+        
+        .header .logoBar .phone img {
+            float: left;
+            margin-right: 2px;
+        }
+        
+        .header .logoBar .phone .number {
+            float: left;
+        }
+        
+        .header .logoBar .phone .number p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+            height: 26px;
+        }
+        
+        .header .logoBar .phone .number h2 {
+            font-size: 24px;
+            height: 20px;
+            color: #666;
+        }
+        
+        .header .nav {
+            position: relative;
+        }
+        
+        .header .nav ol {
+            overflow: hidden;
+            margin-left: 210px;
+        }
+        
+        .header .nav ol li {
+            float: left;
+            height: 38px;
+            line-height: 38px;
+        }
+        
+        .header .nav ol li a {
+            font-size: 16px;
+            color: black;
+        }
+        
+        .header .nav ol li a:hover {
+            color: #009d4a;
+        }
+        
+        .header .nav ol .index {
+            margin-left: 70px;
+        }
+        
+        .header .nav ol .sell {
+            margin-left: 82px;
+            position: relative;
+        }
+        
+        .header .nav ol .tuang {
+            margin-left: 88px;
+        }
+        
+        .header .nav ol .point {
+            margin-left: 64px;
+        }
+        
+        .header .nav ol .lunt {
+            margin-left: 80px;
+        }
+        
+        .header .nav ol .sell span {
+            display: inline-block;
+            width: 40px;
+            height: 23px;
+            background: url(../img/hot.png);
+            position: absolute;
+            right: -44px;
+            top: 0;
+        }
+        
+        .header .fenl {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 999;
+        }
+        
+        .header .fenl p {
+            font-size: 16px;
+            background: url(../img/zk.png) no-repeat;
+            background-position: 154px center;
+            width: 169px;
+            height: 37px;
+            background-color: #009d4a;
+            font-weight: bold;
+            color: white;
+            line-height: 37px;
+            padding-left: 20px;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #009d4a;
+            cursor: pointer;
+        }
+        
+        .header .fenl .slided {
+            border: 2px #009d4a solid;
+            background-color: white;
+            position: relative;
+            display: none;
+        }
+        
+        .header .fenl .slided li {
+            display: block;
+            color: #444;
+            height: 38px;
+            line-height: 38px;
+            width: 185px;
+            background: url(../img/jt.png) no-repeat;
+            background-position: 154px 10px;
+            float: none;
+        }
+        
+        .header .fenl .slided li.active {
+            background-color: #f7f6f6;
+            color: #009d4a;
+        }
+        
+        .header .fenl .slided li span {
+            display: inline-block;
+        }
+        
+        .header .fenl .slided li span.jy {
+            background: url(../img/jy.png) no-repeat;
+            width: 10px;
+            height: 20px;
+            position: absolute;
+            left: 24px;
+            top: 10px;
+        }
+        
+        .header .fenl .slided li span.jj {
+            background: url(../img/jj.png) no-repeat;
+            width: 17px;
+            height: 15px;
+            position: absolute;
+            left: 24px;
+            top: 48px;
+        }
+        
+        .header .fenl .slided li span.ty {
+            background: url(../img/ty.png) no-repeat;
+            width: 16px;
+            height: 22px;
+            position: absolute;
+            left: 24px;
+            top: 83px;
+        }
+        
+        .header .fenl .slided li span.cl {
+            background: url(../img/cl.png) no-repeat;
+            width: 10px;
+            height: 20px;
+            position: absolute;
+            left: 27px;
+            top: 124px;
+        }
+        
+        .header .fenl .slided li span.twj {
+            background: url(../img/twj.png) no-repeat;
+            width: 19px;
+            height: 17px;
+            position: absolute;
+            left: 24px;
+            top: 162px;
+        }
+        
+        .header .fenl .slided li span.ljl {
+            background: url(../img/ljl.png) no-repeat;
+            width: 12px;
+            height: 23px;
+            position: absolute;
+            left: 27px;
+            top: 196px;
+        }
+        
+        .header .fenl .slided li span.twl {
+            background: url(../img/twl.png) no-repeat;
+            width: 23px;
+            height: 16px;
+            position: absolute;
+            left: 22px;
+            top: 238px;
+        }
+        
+        .header .fenl .slided li span.xjl {
+            background: url(../img/xjl.png) no-repeat;
+            width: 15px;
+            height: 21px;
+            position: absolute;
+            left: 24px;
+            top: 272px;
+        }
+        
+        .header .fenl .slided li span.tlz {
+            background: url(../img/tlz.png) no-repeat;
+            width: 14px;
+            height: 22px;
+            position: absolute;
+            left: 24px;
+            top: 309px;
+        }
+        
+        .header .fenl .slided li span.lj {
+            background: url(../img/lj.png) no-repeat;
+            width: 19px;
+            height: 21px;
+            position: absolute;
+            left: 24px;
+            top: 349px;
+        }
+        
+        .header .fenl .slided li span.mmly {
+            background: url(../img/mm.png) no-repeat;
+            width: 19px;
+            height: 20px;
+            position: absolute;
+            left: 24px;
+            top: 389px;
+        }
+        
+        .header .fenl .slided li .a-f {
+            margin-left: 49px;
+            font-size: 14px;
+            color: #444;
+        }
+        
+        .header .fenl .slided li .jtou {
+            background: url(../img/jt.png) no-repeat;
+            width: 8px;
+            height: 13px;
+            position: absolute;
+            right: 28px;
+            top: 10px;
+        }
+        
+        .header .fenl .slided .slided-tt {
+            position: absolute;
+            left: 185px;
+            top: -2px;
+            width: 998px;
+            height: 418px;
+            background-color: #f7f6f6;
+            border: 2px solid #009d4a;
+            border-left: none;
+            z-index: 999;
+            display: none;
+        }
+        
+        .header .fenl .slided dl {
+            overflow: hidden;
+        }
+        
+        .header .fenl .slided dl dt {
+            width: 75px;
+            height: 35px;
+            line-height: 35px;
+            float: left;
+            margin-right: 10px;
+            text-align: right;
+        }
+        
+        .header .fenl .slided dl dt a {
+            color: #a9a9a9;
+            font-weight: bold;
+        }
+        
+        .header .fenl .slided dl dd {
+            float: left;
+            width: 75px;
+            height: 35px;
+            line-height: 35px;
+        }
+        
+        .header .fenl .slided dl dd a {
+            border-left: 1px solid #a9a9a9;
+            color: #a9a9a9;
+            padding-left: 10px;
+        }
+        /*banner*/
+        
+        .banner img {
+            border-top: 2px solid #009d4a;
+            width: 100%;
+        }
+        /*footer*/
+        
+        .footer {
+            border-top: 1px solid #efefef;
+            margin-top: 85px;
+        }
+        
+        .footer .foot {
+            height: 264px;
+            border-bottom: 1px solid #efefef;
+        }
+        
+        .footer .foot .foot-l {
+            overflow: hidden;
+            margin-top: 54px;
+            border-right: 1px solid #efefef;
+            width: 890px;
+            float: left;
+        }
+        
+        .footer .foot .foot-l dl {
+            float: left;
+            width: 195px;
+        }
+        
+        .footer .foot .foot-l dl dt {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 14px;
+        }
+        
+        .footer .foot .foot-l dl dd a {
+            font-size: 14px;
+            color: #999;
+            line-height: 25px;
+        }
+        
+        .footer .foot .foot-r {
+            overflow: hidden;
+            margin-top: 54px;
+            width: 230px;
+            float: right;
+        }
+        
+        .footer .foot .foot-r dl {}
+        
+        .footer .foot .foot-r dl dt {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 14px;
+        }
+        
+        .footer .foot .foot-r dl dd a.callme {
+            font-size: 14px;
+            color: #666;
+            line-height: 25px;
+        }
+        
+        .footer .foot .foot-r dl dd a {
+            font-size: 12px;
+            color: #999;
+            line-height: 25px;
+        }
+        
+        .footer .copyr {
+            height: 61px;
+            overflow: hidden;
+            padding-top: 25px;
+        }
+        
+        .footer .copyr .copyr-l {
+            height: 86px;
+            font-size: 14px;
+            color: #666;
+            float: left;
+        }
+        
+        .footer .copyr .by {
+            font-size: 12px;
+            color: #666;
+            float: right;
+        }

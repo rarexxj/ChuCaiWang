@@ -1,0 +1,288 @@
+.f14 {
+    font-size: 14px;
+}
+
+.w1190 {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+body {
+    min-width: 1190px;
+    font-family: '微软雅黑';
+    font-size: 14px;
+}
+
+a {
+    font-family: '微软雅黑'
+}
+
+.header img {
+    margin-top: 20px;
+}
+
+.header {
+    height: 109px;
+}
+
+.banner {
+    width: 100%;
+    height: 572px;
+    background: url(../img/login-banner.png);
+    background-position: center center;
+    position: relative;
+}
+
+.banner .login {
+    width: 358px;
+    height: 366px;
+    background-color: #fdfbff;
+}
+
+.banner .login-out {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.banner .login-out .top p {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner .login-out .top a {
+    background: url(../img/login-zc.png) no-repeat;
+}
+
+.banner .login-main {
+    position: absolute;
+    left: 50%;
+    margin-left: 220px;
+    background: #fff;
+    top: 50%;
+    margin-top: -183px;
+    width:357px;
+    height: 366px;
+}
+.banner .login-main .login-main-in{
+    width: 280px;
+    margin: 0 auto;
+}
+
+.banner .login-main .title {
+    margin-top: 32px;
+    background: url(../img/bg2.jpg) repeat-x left bottom;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+.banner .login-main .title h2 {
+    font-size: 20px;
+    color: #666666;
+    font-weight: bold;
+    line-height: 34px;
+    float: left;
+}
+
+.banner .login-main .title .zc {
+    float: right;
+    padding-right: 16px;
+    font-size: 12px;
+    color: #009d4a;
+    line-height: 34px;
+    background:url(../img/login-zc.png) no-repeat;
+    background-position: right center;
+}
+
+.banner .login-main .title p a {
+    color: #d00000;
+    padding-right: 22px;
+    background: url(../img/ico9.png) no-repeat right center;
+}
+
+.banner .login-main .form {
+    margin: 20px 0 0;
+}
+
+.banner .login-main .form .box {
+    margin-bottom: 15px;
+
+    height: 42px;width: 280px;
+}
+
+.banner .login-main .form .box i {
+    float: left;
+    width: 40px;
+    height: 38px;
+    background: #f3f3f3 url(../img/ico8.png) no-repeat;
+    border: 1px solid #bdbdbd;
+    border-right: 0 none;
+}
+.banner .login-main .form .box i.phone {
+    background-position: 0 0;
+}
+.banner .login-main .form .box i.password {
+    background-position: 0px -38px;
+}
+
+.banner .login-main .form .box input {
+    float: left;
+    border: 1px solid #bdbdbd;
+    height: 20px;
+    line-height: 20px;
+    padding: 9px 14px;
+    width: 209px;
+    font-size: 14px;
+    color: #999999;
+}
+.banner .login-main .form .box label {
+    overflow: hidden;
+}
+
+.banner .login-main .form .link {
+    margin: 10px 0 25px;
+    overflow: hidden;
+}
+.banner .login-main .form .link .link-l{
+    float: left;
+
+}
+.banner .login-main .form .link input{
+    line-height: 22px;
+
+}
+.banner .login-main .form .link .link-r span{
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    line-height: 22px;
+
+}
+.banner .login-main .form .link .link-r a{
+    font-size: 12px;
+    float: left;
+    line-height: 22px;
+    color: #009d4a;
+
+}
+.banner .login-main .form .link .link-r{
+    float: right;
+
+}
+.banner .login-main .form .link .reg-btn {
+    line-height: 22px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.banner .login-main .form .link .reg-btn:hover {
+    color: #e82242;
+}
+
+.banner .login-main .form .link .forget-btn {
+    
+}
+
+.banner .login-main .form .link .forget-btn:hover {
+    color: #e82242;
+}
+
+.banner .login-main .form .submit {
+    display: block;
+    width: 100%;
+    border: 0 none;
+    background: #009d4a;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.banner .login-main .form .submit:hover {
+    opacity: 0.8;
+}
+
+
+/*footer*/
+
+.footer {
+    border-top: 1px solid #efefef;
+}
+
+.footer .foot {
+    height: 264px;
+    border-bottom: 1px solid #efefef;
+}
+
+.footer .foot .foot-l {
+    overflow: hidden;
+    margin-top: 54px;
+    border-right: 1px solid #efefef;
+    width: 890px;
+    float: left;
+}
+
+.footer .foot .foot-l dl {
+    float: left;
+    width: 195px;
+}
+
+.footer .foot .foot-l dl dt {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 14px;
+}
+
+.footer .foot .foot-l dl dd a {
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+}
+
+.footer .foot .foot-r {
+    overflow: hidden;
+    margin-top: 54px;
+    width: 230px;
+    float: right;
+}
+
+.footer .foot .foot-r dl {}
+
+.footer .foot .foot-r dl dt {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 14px;
+}
+
+.footer .foot .foot-r dl dd a.callme {
+    font-size: 14px;
+    color: #666;
+    line-height: 25px;
+}
+
+.footer .foot .foot-r dl dd a {
+    font-size: 12px;
+    color: #999;
+    line-height: 25px;
+}
+
+.footer .copyr {
+    height: 61px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.footer .copyr .copyr-l {
+    height: 86px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+
+.footer .copyr .by {
+    font-size: 12px;
+    color: #666;
+    float: right;
+}

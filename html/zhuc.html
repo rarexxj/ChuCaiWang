@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/zhuc.css">
+    <style type="text/css">
+    .zhuc-xiey {
+        background-color: #fff;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -350px;
+        margin-top: -160px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 2px;
+        color: #fff;
+        z-index: 99;
+        width: 700px;
+        border: 2px solid #dedede;
+        border-top: 2px solid #009d4a;
+    }
+    
+    .zhuc-xieybox {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    
+    .xiey-content {
+        padding: 20px;
+    }
+    
+    .xiey-header h3 {
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .xiey-body p {
+        color: #000;
+    }
+    
+    .xiey-body .btn {
+        display: inline-block;
+        zoom: 1;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 20px;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        background: #009d4a;
+        border: 0;
+        border-radius: 3px;
+        cursor: pointer;
+        margin: 20px 0 0px 0;
+    }
+    
+    .zhuc-xx {
+        display: inline-block;
+        zoom: 1;
+        width: 24px;
+        height: 24px;
+        font-size: 18px;
+        text-align: center;
+        color: #898989;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+    }
+    
+    .zhuc-xx:hover {
+        color: #009d4a;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div class="header w1190">
+            <img src="../img/logo.png" class="logo">
+        </div>
+    </div>
+    <div class="mid w1190">
+        <div class="title">
+            <div class="phone active">01填写手机号码</div>
+            <div class="password">02设置密码</div>
+        </div>
+        <div class="main">
+            <div class="zhuch">
+                <div class="main1">
+                    <span>手机号码:</span>
+                    <input class="phone" type="text" placeholder="请输入您的手机号码">
+                    <!-- <i class="phone"></i> -->
+                </div>
+                <div class="main2">
+                    <span>图片验证码:</span>
+                    <input class="tu" type="text" placeholder="请输入图形验证码">
+                    <div class="ew"></div>
+                </div>
+                <div class="main3">
+                    <span>短信验证码:</span>
+                    <input class="message" type="text" placeholder="请输入短信验证码">
+                    <input type="button" value="获取验证码" class="button">
+                </div>
+                <div class="main4">
+                    <button class="next">下一步</button>
+                </div>
+            </div>
+            <div class="shezmm">
+                <div class="main1">
+                    <span>密码:</span>
+                    <input class="phone" type="text" placeholder="请输入密码">
+                    <!-- <i class="phone"></i> -->
+                </div>
+                <div class="main2">
+                    <span>确认密码:</span>
+                    <input class="tu" type="text" placeholder="请再次输入密码">
+                </div>
+                <div class="main4">
+                    <button>提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot w1190">
+            <div class="foot-l">
+                <dl>
+                    <dt>会员中心</dt>
+                    <dd><a href="##">注册登录</a></dd>
+                    <dd><a href="##">会员制度</a></dd>
+                    <dd><a href="##">购物流程</a></dd>
+                    <dd><a href="##">积分说明</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="##">退换货政策</a></dd>
+                    <dd><a href="##">退换货流程</a></dd>
+                    <dd><a href="##">发票制度</a></dd>
+                    <dd><a href="##">投诉建议</a></dd>
+                </dl>
+                <dl>
+                    <dt>商家中心</dt>
+                    <dd><a href="##">免费入驻</a></dd>
+                    <dd><a href="##">后台管理</a></dd>
+                </dl>
+                <dl>
+                    <dt>公司介绍</dt>
+                    <dd><a href="##">关于我们</a></dd>
+                    <dd><a href="##">联系我们</a></dd>
+                </dl>
+            </div>
+            <div class="foot-r">
+                <dl>
+                    <dt>客户服务中心</dt>
+                    <dd><a href="##" class="callme">全国免费热线：400-8888-8888</a></dd>
+                    <dd><a href="##">工作时间：工作日9:00-17:00</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="copyr w1190">
+            <span class="copyr-l">Copyright&nbsp;@&nbsp;2016&nbsp;杭州创威光电科技有限公司&nbsp;版权所有.&nbsp;All&nbsp;Rights&nbsp;Reserved.&nbsp;浙ICP备00000000号</span>
+            <span class="by">网站建设：博采网络</span>
+        </div>
+    </div>
+    <div class="zhuc-xieybox">
+        <div class="zhuc-xiey" id='zhuc-xiey'>
+            <div class="xiey-content">
+                <span class="zhuc-xx">x</span>
+                <div class='xiey-header'>
+                    <h3>注册协议</h3>
+                </div>
+                <div class='xiey-body'>
+                    <p><strong>【审慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong style='text-decoration: underline'>请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
+                    <p>1、<strong style='text-decoration: underline'>与您约定免除或限制责任的条款；</strong></p>
+                    <p>2、<strong style='text-decoration: underline'>与您约定法律适用和管辖的条款；</strong></p>
+                    <p>3、<strong style='text-decoration: underline'>其他以粗体下划线标识的重要条款。</strong></p>
+                    <p>如您对协议有任何疑问，可向平台客服咨询。</p>
+                    <p><strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+                    <p><strong style='text-decoration: underline'>阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong></p>
+                    <!-- <p><a href='http://terms.alicdn.com/legal-agreement/terms/TD/TD201609301342_19559.html' target='_blank'>《淘宝服务协议》</a></p>
+                <p><a href='http://www.taobao.com/go/chn/tb-fp/2014/law.php' target='_blank'>《法律声明及隐私权政策》</a></p>
+                <p><a href='https://ds.alipay.com/fd-inhm9zcq/index.html' target='_blank'>《支付宝服务协议》</a></p> -->
+                    <p style='text-align: center'>
+                        <button class='btn btn-large' type='button' id='xieyBtn'>同意协议</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(".next").click(function() {
+    $(".zhuch").hide();
+    $(".shezmm").show();
+    $(".password").addClass("active");
+    $(".phone").removeClass("active");
+})
+
+$('.zhuc-xx').on('click',function(){
+    window.history.back(-1)
+})
+$('.xiey-body .btn').on('click',function(){
+    $('.zhuc-xieybox').hide();
+})
+</script>

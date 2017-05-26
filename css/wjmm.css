@@ -1,0 +1,274 @@
+.f14 {
+    font-size: 14px;
+}
+
+.w1190 {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+body {
+    min-width: 1190px;
+    font-family: '微软雅黑';
+    font-size: 14px;
+}
+
+a {
+    font-family: '微软雅黑'
+}
+
+.header img {
+    margin-top: 20px;
+}
+
+.top {
+    background: url(../img/zhuc-bg.png) repeat-x;
+    background-position: left bottom;
+}
+
+.header {
+    height: 130px;
+}
+
+.mid .title {
+    overflow: hidden;
+}
+
+.mid .title .phone,
+.mid .title .password {
+    width: 595px;
+    border-bottom: 2px solid #dedede;
+    height: 66px;
+    line-height: 66px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #dedede;
+}
+
+.mid .title .active {
+    border-bottom: 2px solid #727272;
+    color: #727272;
+}
+
+.mid .main {
+    width: 1188px;
+    height: 400px;
+    border: 1px solid #ededed;
+    border-top: none;
+    position: relative;
+}
+
+.mid .main span {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    color: #666;
+    display: inline-block;
+    margin-right: 4px;
+    text-align: right;
+}
+
+.mid .main .main1,
+.mid .main .main2,
+.mid .main .main3 {
+    height: 64px;
+}
+
+.mid .main .zhuch {
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+.mid .main .shezmm {
+    display: none;
+    width: 400px;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+}
+
+.mid .main .shezmm .main1 input,
+.mid .main .shezmm .main2 input {
+    width: 264px;
+    padding-left: 10px;
+    height: 38px;
+    border: 1px solid #bdbdbd;
+    font-size: 14px;
+    color: #999;
+}
+
+.mid .main .main3 .message,
+.mid .main2 .tu {
+    margin-left: 4px;
+}
+
+.mid .main .main1 input,
+.mid .main .main2 input,
+.mid .main .main3 .message {
+    width: 168px;
+    padding-left: 10px;
+    height: 38px;
+    border: 1px solid #bdbdbd;
+    font-size: 14px;
+    color: #999;
+}
+
+.mid .main2 span,
+.mid .main2 .tu,
+.mid .main2 .ew {
+    float: left;
+}
+
+.mid .main2 .ew {
+    width: 97px;
+    height: 38px;
+    background-color: #f3f3f3;
+    border: 1px solid #bdbdbd;
+    border-left: none;
+    display: inline-block;
+}
+
+.mid .main .zhuch .main1 input.phone {
+    width: 265px;
+}
+
+.mid .main1 input {
+    background: url(../img/zhuc-phone.png) no-repeat;
+    background-position: 240px center;
+}
+
+.mid .main3 .button {
+    width: 97px;
+    height: 40px;
+    background-color: #f3f3f3;
+    border: 1px solid #bdbdbd;
+    border-left: none;
+    color: #999;
+}
+
+.mid .main3 * {
+    float: left;
+}
+
+.mid .main3 {
+    overflow: hidden;
+}
+
+.mid .main2 {
+    overflow: hidden;
+}
+
+.mid .main4 {
+    margin-left: 106px;
+}
+
+.mid .main4 button {
+    width: 280px;
+    height: 40px;
+    background-color: #009d4a;
+    color: white;
+    font-size: 18px;
+}
+
+.mid .main .shezmm .main1 input,
+.mid .main .shezmm .main2 input {
+    background: url(../img/zhuc-mim.png) no-repeat;
+    background-position: 240px center;
+}
+
+
+/*.mid .main1 i {
+    background: url(../img/zhuc-phone.png) no-repeat;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}*/
+
+
+/*footer*/
+
+.footer {
+    border-top: 1px solid #efefef;
+    margin-top: 85px;
+}
+
+.footer .foot {
+    height: 264px;
+    border-bottom: 1px solid #efefef;
+}
+
+.footer .foot .foot-l {
+    overflow: hidden;
+    margin-top: 54px;
+    border-right: 1px solid #efefef;
+    width: 890px;
+    float: left;
+}
+
+.footer .foot .foot-l dl {
+    float: left;
+    width: 195px;
+}
+
+.footer .foot .foot-l dl dt {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 14px;
+}
+
+.footer .foot .foot-l dl dd a {
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+}
+
+.footer .foot .foot-r {
+    overflow: hidden;
+    margin-top: 54px;
+    width: 230px;
+    float: right;
+}
+
+.footer .foot .foot-r dl {}
+
+.footer .foot .foot-r dl dt {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 14px;
+}
+
+.footer .foot .foot-r dl dd a.callme {
+    font-size: 14px;
+    color: #666;
+    line-height: 25px;
+}
+
+.footer .foot .foot-r dl dd a {
+    font-size: 12px;
+    color: #999;
+    line-height: 25px;
+}
+
+.footer .copyr {
+    height: 61px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.footer .copyr .copyr-l {
+    height: 86px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+
+.footer .copyr .by {
+    font-size: 12px;
+    color: #666;
+    float: right;
+}
